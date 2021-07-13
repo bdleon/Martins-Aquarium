@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+header{
+    background-image: url("/image/bannerimage.jpg");
+    height: 9em;
+}
+header h1{
+    text-align: center;
+    padding-top: 1.5em;
+    color:white
+}
+.mainInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+    
+}
+
+.fishList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.fish{
+    flex-direction: row ;
+    width: 18em;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 1 ;
+    margin-left:10%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fishLocation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-content{
+    flex:3
+}
+.fish img{
+    width: 100%;
+}
+.location img{
+    width: 100%;
+    
+}
+.helpfulTips{
+    background-color: aquamarine;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.quote{
+    background-color: aquamarine;
+    padding: 1em;
+}
